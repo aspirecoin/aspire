@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. aspire_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. aspire_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. aspire_test_check
